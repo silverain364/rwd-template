@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face {
+    font-family: 'ClimateCrisisKR-1979';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/ClimateCrisisKR-1979.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Open Sans", serif;
+}
+
+h1 {
+    font-family: 'ClimateCrisisKR-1979';
+    font-size: 4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 900;
+    font-style : italic;
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+a.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 4.6rem;
+    gap: 1rem;
+    background-color: rgb(51, 160, 168);
+    border-radius: 5rem;
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-style: italic;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+a.btn img {
+    width: 1.8rem;
+}
+
+.tit_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.img_wrap {
+    position: relative;
+}
+
+.t-shadow {
+    text-shadow: 0 0.4rem .4rem rgba(0, 0, 0, 0.25);
+}
+
+.b-shadow {
+    box-shadow: 0 0.4rem .4rem rgba(0, 0, 0, 0.25);
+}
+
+section, footer {
+    position: relative;
+    padding: 10rem 2rem;
+    z-index: 0;
+}
+.rel {
+    position: relative;
+    height: 100%;
+}
